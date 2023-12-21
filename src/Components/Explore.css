@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin:  0 auto;
+ 
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-info{
+  background-color: #C7EEFF;
+  margin-top: 3rem;
+}
+
+
+.feature-img{
+height: 400px;
+flex-shrink: 0;
+object-fit: contain;
+}
+
+.feature-text h1{
+  font-size: 40px;
+
+}
+
+.feature-text a{
+  border: 1px solid #0077CA;
+  padding: .5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: block;
+  width: 22%;
+  background-color: #0077CA;
+  color: white;
+}
+
+.feature-text p {
+  margin-top: 1rem;
+}

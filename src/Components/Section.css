@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.bg-color{
+  background-color: #C7EEFF;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  
+}
+
+.bg-color p {
+  position: absolute;
+  left: .3rem;
+  bottom: .01rem;
+  margin:  0 auto;
+}
+
+.flex-document{
+  display: flex;
+  align-items: end;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.texts{
+  margin-top: -6rem;
+}

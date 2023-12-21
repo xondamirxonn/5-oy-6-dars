@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin:  0 auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.text-div h1{
+  font-size: 50px;
+  width: 70%;
+  /* font-family: SF Pro Display; */
+
+}
+
+.text-div p {
+  width: 50%;
+}
+
+.text-div a{
+  display: inline-block;
+  border: 1px solid #0077C0;
+  background-color: #0077C0;
+  padding: .5rem;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.bg-img{
+  position: absolute;
+  height: 540px;
+  top: 10.6rem;
+}
+
+.person-img{
+  position: relative;
+  height: 595.5px;
+  left: 6rem;
+}
+
+.brand-imgs{
+  margin-top: 3rem;
+}
